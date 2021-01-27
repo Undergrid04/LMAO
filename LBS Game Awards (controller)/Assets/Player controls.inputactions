@@ -1,0 +1,71 @@
+{
+    "name": "Player controls",
+    "maps": [
+        {
+            "name": "Gameplay",
+            "id": "7c7ebdc5-feda-4796-8dbf-2911dac39ea9",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Button",
+                    "id": "8c76953a-97b6-49f9-be55-ea22d73d7668",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Rotate",
+                    "type": "Button",
+                    "id": "3bd7eb64-d89d-4fde-bb44-4cd1807609c6",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "bb964b20-eab0-46f8-bfbc-6bfaa86611e4",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "007e772f-927f-4c7f-86a6-48e59262136f",
+                    "path": "<XInputController>/leftStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "598598a5-bd7b-4166-ab48-fb86655cbffd",
+                    "path": "<XInputController>/rightStick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Rotate",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "88a7e4d1-65bb-4ce0-80e5-f0c71cdc7cfc",
+                    "path": "<XInputController>/buttonSouth",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
